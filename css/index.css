@@ -1,0 +1,187 @@
+body{
+    background-color: rgb(186, 222, 243);
+    font-size: 16px;
+}
+.holder{
+    text-align: center;
+}
+/* 顶部GPS */
+.top{
+    padding-top: 20px;
+    width: 100vw;
+    height: 6vh;
+}
+/* 返回 */
+.back{
+    position: absolute;
+    font-size: 30px;
+    margin-top: 1vh;
+    margin-left: 1vh;
+}
+/* 中间 */
+.middle{
+    display: flex;
+    width: 100vw;
+    height: 80vh;
+}
+/* part 1 */
+.boxes{
+    margin: 0 auto;
+    align-self: center;
+}
+
+.search{
+    padding:0 12vw 0 3vw;
+    width: 70vw;
+    height: 5vh;
+    position: relative;
+    background-color: white;
+    border-radius: 15px;
+    border: 3PX solid silver;
+}
+.input{
+    outline: none;
+    font-size: 25PX;
+    width: 70vw;
+    height: 5vh;
+    border: 0;
+    background-color: transparent;
+}
+.i{
+    background-color: transparent;
+    position: absolute;
+    right: 0px;
+    top: 50%;
+    transform:translate(-50%,-50%);
+    color: rgb(150, 150, 150);
+}
+.history{
+    position: absolute;
+    width: 100%;
+    background-color: white;
+    border-radius: 15px;
+    left: 0;
+    top: 5vh;
+    box-shadow: 0 5px 4px rgba(0,0,0,.16);
+    display: none;
+}
+.historyList{
+    padding: 6PX 0;
+    background-color: white;
+    border-radius: 8PX;
+}
+.historyList li{
+    position: relative;
+    background-color: white;
+    font-size: 13px;
+    text-align: start;
+    height: 3vh;
+    line-height: 3vh;
+    padding: 1vw 3vw;
+}
+.historyli{
+    display: block;
+    height: 5vw;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    background-color: white;
+}
+.X{
+    position: absolute;
+    top: 1vh;
+    right: 4vw;
+}
+/* part 2 */
+.second{
+    position: relative;
+    width: 95vw;
+}
+.a{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+    border-bottom:1PX rgb(202, 202, 202) solid ;
+}
+.a div{
+    position: absolute;
+}
+.a div:nth-child(1){
+    left: 0;
+}
+.a div:nth-child(2){
+    width: 26vw;
+    left: 37vw;
+    right: 37vw;
+}
+.a div:nth-child(3){
+    right: 0;
+}
+/* part 3 */
+.temperature{
+    font-size: 60PX;
+    margin-bottom: 15PX;
+}
+.cloud{
+    font-size: 30PX;
+    margin: 15PX;
+}
+.wind{
+    margin-bottom: 50PX;
+}
+.tip{
+    width: 80vw;
+}
+/* part 4 */
+.fourth{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.box{
+    position: relative;
+    width: 50vw;
+    height: 29vh;
+    box-sizing: border-box;
+}
+.box:nth-child(2) .b:nth-child(3){
+    margin-bottom: 2.5vh;
+}
+.box:nth-child(4) .b:nth-child(3){
+    margin-bottom: 2.6vh;
+}
+.left{
+    border:1PX solid rgb(231, 228, 228);
+    border-left: 0px;
+}
+.right{
+    border:1px solid rgb(231, 228, 228);
+    border-right: 0px;
+}
+.b:not(:nth-child(3)){
+    margin: 2vh 0vh;
+}
+.b:nth-child(2){
+    font-size: 12PX;
+    line-height: 18PX;
+}
+.b:nth-child(3){
+    width: 48VW;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 2vh;
+}
+/* bottom */
+.bottom{
+    width: 100vw;
+    height: 9vh;
+    display: flex;
+    justify-content: space-between;
+}
+.footer{
+    margin: 0 10PX;
+
+}
+.dian{
+    color: orange;
+}

@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>天气预报</title>
+  <link href="./css/iconfont.css" type="text/css" rel="stylesheet">
+  <link href="./css/index.css" type="text/css" rel="stylesheet">
+  <link href="./css/reset.css" type="text/css" rel="stylesheet">
+</head>
+
+<body>
+  <div class="holder">
+    <div class="top">
+      <div class="back"></div>
+      <i class="iconfont" style="font-size: 25px;">&#xe631;</i>
+      <div class="gps">重庆</div>
+    </div>
+    <div class="middle">
+      <div class="boxes first">
+        <div class="search">
+          <input class="input" placeholder="请输入你想搜索的城市" style="font-size: 16PX;" type="text">
+          <div class="iconfont i" style="font-size: 17px;">&#xe602;</div>
+          <div class="history">
+            <ul class="historyList"></ul>
+          </div>
+        </div>
+      </div>
+      <div class="boxes second" style="display: none;">
+        <div class="a">
+          <div><span class="when"></span></div>
+          <div><span class="weather"></span></div>
+          <div>
+            <span class="max"></span>
+            /
+            <span class="min"></span>
+          </div>
+        </div>
+        <div class="a">
+          <div><span class="when"></span></div>
+          <div><span class="weather"></span></div>
+          <div>
+            <span class="max"></span>
+            /
+            <span class="min"></span>
+          </div>
+        </div>
+        <div class="a">
+          <div><span class="when"></span></div>
+          <div><span class="weather"></span></div>
+          <div>
+            <span class="max"></span>
+            /
+            <span class="min"></span>
+          </div>
+        </div>
+        <div class="a">
+          <div><span class="when"></span></div>
+          <div><span class="weather"></span></div>
+          <div>
+            <span class="max"></span>
+            /
+            <span class="min"></span>
+          </div>
+        </div>
+        <div class="a">
+          <div><span class="when"></span></div>
+          <div><span class="weather"></span></div>
+          <div>
+            <span class="max"></span>
+            /
+            <span class="min"></span>
+          </div>
+        </div>
+        <div class="a">
+          <div><span class="when"></span></div>
+          <div><span class="weather"></span></div>
+          <div>
+            <span class="max"></span>
+            /
+            <span class="min"></span>
+          </div>
+        </div>
+        <div class="a">
+          <div><span class="when"></span></div>
+          <div><span class="weather"></span></div>
+          <div>
+            <span class="max"></span>
+            /
+            <span class="min"></span>
+          </div>
+        </div>
+      </div>
+      <div class="boxes third" style="display: none;">
+        <div class="temperature">温度</div>
+        <div class="cloud">天气</div>
+        <div class="wind">风向</div>
+        <div class="tip">提示</div>
+      </div>
+      <div class="boxes fourth" style="display: none;">
+        <div class="box left">
+          <div class="b">
+            <span class="zhishu"></span>
+            :
+            <span class="level"></span>
+          </div>
+          <div class="b"><span class="tips"></span></div>
+          <div class="b"><i class="iconfont" style="font-size: 40px;color: rgb(168, 215, 225);">&#xe69c;</i></div>
+        </div>
+        <div class="box right">
+          <div class="b">
+            <span class="zhishu"></span>
+            :
+            <span class="level"></span>
+          </div>
+          <div class="b"><span class="tips"></span></div>
+          <div class="b"><i class="iconfont" style="font-size: 40px;color: rgb(163, 174, 224);">&#xe62d;</i></div>
+        </div>
+        <div class="box left">
+          <div class="b">
+            <span class="zhishu"></span>
+            :
+            <span class="level"></span>
+          </div>
+          <div class="b"><span class="tips"></span></div>
+          <div class="b"><i class="iconfont" style="font-size: 48px;color: rgb(226, 169, 199);">&#xe600;</i></div>
+        </div>
+        <div class="box right">
+          <div class="b">
+            <span class="zhishu"></span>
+            :
+            <span class="level"></span>
+          </div>
+          <div class="b"><span class="tips"></span></div>
+          <div class="b"><i class="iconfont" style="font-size: 40px;color: rgb(230, 217, 157);">&#xe630;</i></div>
+        </div>
+      </div>
+    </div>
+    <div class="bottom">
+      <div class="footer">
+        <i class="iconfont" style="font-size: 25px;">&#xe624;</i>
+        <div>未来天气</div>
+      </div>
+      <div class="footer">
+        <i class="iconfont" style="font-size: 25px;">&#xe608;</i>
+        <div>今日天气</div>
+      </div>
+      <div class="footer">
+        <i class="iconfont" style="font-size: 25px;">&#xe649;</i>
+        <div>生活指数</div>
+      </div>
+    </div>
+  </div>
+  <script src="./js/index.js" type="text/javascript"></script>
+</body>
+
+</html>
